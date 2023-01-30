@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+@keyframes bounceIn {0%{transform:scaleX(0.5)}
+60%{transform:scaleX(1);
+opacity:1}
+100{transform:scalex(0.8)}}
+h1{
+    /* Binding the rules to my h1 element */
+    font-size: 80px;
+    animation: bounceIn 4s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+  h2 {
+    animation: 4s infinite bounceIn;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+  }
+   
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hero-image{
+    background-image:url("https://free-vectors.net/_ph/9/2/667355826.jpg") ;
+    background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+    
+}
+@media screen and (max-width: 600px) {
+    table {
+        width: 90%;
+    
+    }
+}
+table{height: 100px;}
+ul{
+    
+    list-style-type: "\1F44D";
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    
+}
